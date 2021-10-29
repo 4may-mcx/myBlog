@@ -90,7 +90,7 @@ git add .
 git commit -m '注释内容' 	
 ```
 
-
+![Image](https://raw.githubusercontent.com/4may-mcx/myBlog/master/images/gitLog_process.png)
 
 ##### 忽略文件
 
@@ -112,9 +112,38 @@ doc/*.txt	#会忽略 doc/notes.txt 但不忽略 doc/serve/arch.txt (浅忽略)
 
 
 
- 
+ ### 5. Git 分支
+
+分支相当于平行的两条线，互不干扰，即同时存在多个版本。如果需要合并，那就需要处理问题了。
 
 
 
+```bash
+#分支常用指令
 
+#列出所有本地分支
+git branch
+
+#列出所有远程分支
+git branck -r
+
+#新建一个分支，但依旧停留在当前分支
+git branch [branchName]
+
+#切换分支
+git checkout [branchName]
+
+#新建一个分支，并切换到该分支
+git checkout -b [branchName]
+
+#合并指定分支到当前分支
+git merge [branchName]
+
+#删除分支
+git branch -d [barnchNeme]
+
+#删除远程分支
+git push origin --delete [branchName]
+git branch -dr [remote/branch]
+```
 
