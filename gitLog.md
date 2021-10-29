@@ -31,7 +31,7 @@ C:\用户\adminstor\\.gitconfig
 
 ### 3. Git基本理论
 
-![image-20211029114001500](C:\Users\mayo\AppData\Roaming\Typora\typora-user-images\image-20211029114001500.png)
+![Image](https://raw.githubusercontent.com/4may-mcx/myBlog/master/images/gitLog_1.png))
 
 ##### Git本地有三个工作区域
 
@@ -69,6 +69,14 @@ C:\用户\adminstor\\.gitconfig
 
 
 
+### 4.操作流程
+
+1. ①本地仓库搭建 `git init` ，操作后目录仅出现一个 .git 文件 
+
+   ②克隆远程仓库 `git clone https://github.com/4may-mcx/firstTest.git`，将远程服务器上的仓库完全镜像一份到本地
+
+2. 文件操作 
+
 ```bash
 #查看所有文件的状态
 git status 	
@@ -104,21 +112,9 @@ doc/*.txt	#会忽略 doc/notes.txt 但不忽略 doc/serve/arch.txt (浅忽略)
 
 
 
-### 4.操作流程
-
-1. ①本地仓库搭建 `git init` ，操作后目录仅出现一个 .git 文件 
-
-   ②克隆远程仓库 `git clone https://github.com/4may-mcx/firstTest.git`，将远程服务器上的仓库完全镜像一份到本地
-
-2.  文件操作 
-
  
 
 
-
-
-
-![image-20211029153833756](C:\Users\mayo\AppData\Roaming\Typora\typora-user-images\image-20211029153833756.png)
 
 
 
