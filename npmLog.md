@@ -4,7 +4,7 @@
 #安装(安装最新版)
 npm install <moduleName>
 npm install <moduleName> -g #全局安装
-npm instal  #根据package.json中的信息自动安装node_modules
+npm install  #根据package.json中的信息自动安装node_modules
 
 #安装指定版本
 npm install <moduleName>@x.x.x # @后面加版本号
@@ -81,4 +81,4 @@ license:
 #主版本 a & b不变，c按照可以安装的最新版本安装。同上
 ```
 
-若什么没有这两个前缀，则按照指定版本安装
+若没有这两个前缀，则按照指定版本安装
