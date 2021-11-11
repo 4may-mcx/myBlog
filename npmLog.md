@@ -3,6 +3,7 @@
 ```bash
 #安装(安装最新版)
 npm install <moduleName>
+npm i <moduleName>
 npm install <moduleName> -g #全局安装
 npm install  #根据package.json中的信息自动安装node_modules
 
@@ -15,9 +16,9 @@ npm install <moduleName>@x.x.x # @后面加版本号
 # -save，在package文件的dependencies节点写入依赖
 npm install -save <moduleName>	
 
-# -save-dev，在package文件的devDependencies节点写入依赖
+# -save-dev(-D)，在package文件的devDependencies节点写入依赖
 npm install -save-dev <moduleName>
-
+npm install -D <moduleName>
 #更新到最新版
 npm update <moduleName>
 
